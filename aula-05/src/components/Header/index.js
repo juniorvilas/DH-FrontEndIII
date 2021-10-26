@@ -1,6 +1,6 @@
 import './style.css';
 
-function Header({}) {
+function Header() {
  
   return (
     <header>

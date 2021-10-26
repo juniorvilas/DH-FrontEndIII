@@ -1,14 +1,14 @@
-import Greeting from './components/Greeting';
-import Paragraph from './components/Paragraph';
+/* import Greeting from './components/Greeting';
+import Paragraph from './components/Paragraph'; */
 import Header from './components/Header';
 import './App.css';
 import Banner from './components/Banner';
 
 function App() {
-  const user = {
+/*   const user = {
     firstName: 'Turma',
     lastName: 'XX'
-  }
+  } */
 
 const botao = "Botão";
 const texto = "Fragments e Props";
