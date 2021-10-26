@@ -1,0 +1,52 @@
+.banner {
+    background: url(./img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 43rem;
+    justify-content: center;
+    display: flex;
+             
+}
+
+
+.banner div p {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    
+   
+}
+
+.banner > div > button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color:red;
+    border-radius: 8px;
+    width: 130px;
+    height: 35px;
+    margin: 9rem;
+    cursor: pointer;
+    transition: 0.5 all;
+}
+.banner > div > button:hover {
+    background-color:white;
+    color: red;
+}
+
+
+.banner div footer {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    
+    
+    
+}
