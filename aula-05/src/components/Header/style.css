@@ -26,9 +26,7 @@ h1{
   font-size: 30px;
 }
 
-h1::first-letter{
-  color: red;
-}
+
 
 header ul{
   display: flex;
