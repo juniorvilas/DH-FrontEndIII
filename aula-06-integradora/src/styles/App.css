@@ -1,0 +1,23 @@
+.App {
+      
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+    position: relative;
+    color: gray;
+}
+
+.App h3 {
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
+.container {
+    margin-bottom: 30px;
+}
