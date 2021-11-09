@@ -1,0 +1,33 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 18px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+
+   
+
+    .imagemSite  {
+      
+      
+      
+      img{
+        width: 8rem;
+      }
+      
+    }
+
+    .iconGit{
+
+      img{
+        width: 2rem;
+      }
+
+    }
+
+  }
+
+  

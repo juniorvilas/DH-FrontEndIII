@@ -1,0 +1,11 @@
+import './style.scss';
+
+const Footer = ({  }) => {
+    return (
+            <header>
+            
+            </header>
+    )
+}
+
+export default Footer;
