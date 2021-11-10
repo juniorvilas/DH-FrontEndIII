@@ -1,6 +1,6 @@
 import './style.scss';
 
-const Header = ({  }) => {
+const Header = () => {
     return (
             <header  className="sticky-top">
                 <nav className="navbar navbar-dark bg-dark" aria-label="First navbar example">

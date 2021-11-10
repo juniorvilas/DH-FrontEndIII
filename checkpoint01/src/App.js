@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Projetos from './components/Projetos';
 import Footer from './components/Footer';
-import Git from './img/github.svg';
+import Git from './img/github.png';
 import Geek from './img/geek.jpg';
 import Filmes from './img/filmes.png';
 import Keep from './img/keep.png';
@@ -48,16 +48,14 @@ export default class App extends Component {
         
         <main>
           <Banner/>
-          
-        </main>
-        <Projetos/>            
+           <Projetos/>            
             { this.state.listaProjetos.map(({ id, nome,url, gitrub, img }) => {
                     return (                
                             <div className="cards" key={id} >
                             <h3>{nome}</h3>
                             <div className="links">
-                            <a className="imagemSite" href={url}><img src={img}/></a>
-                            <a className="iconGit "href={gitrub}><img src={Git}/></a>
+                            <a className="imagemSite" href={url}><img alt="imagem site" src={img}/></a>
+                            <a className="iconGit "href={gitrub}><img alt="iamgem git" src={Git}/></a>
                             </div>
                             </div>
                 
@@ -65,6 +63,8 @@ export default class App extends Component {
                     })
                 }
            <Projetos/>
+        </main>
+       
 
         <Footer />
       </>
