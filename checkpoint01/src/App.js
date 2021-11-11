@@ -48,21 +48,23 @@ export default class App extends Component {
         
         <main>
           <Banner/>
-           <Projetos/>            
+           <Projetos>            
             { this.state.listaProjetos.map(({ id, nome,url, gitrub, img }) => {
-                    return (                
+                    return ( 
+                            <>               
                             <div className="cards" key={id} >
-                            <h3>{nome}</h3>
-                            <div className="links">
-                            <a className="imagemSite" href={url}><img alt="imagem site" src={img}/></a>
-                            <a className="iconGit "href={gitrub}><img alt="iamgem git" src={Git}/></a>
+                              <h3>{nome}</h3>
+                              <div className="links">
+                                <a className="imagemSite" href={url}><img alt="imagem site" src={img}/></a>
+                                <a className="iconGit "href={gitrub}><img alt="iamgem git" src={Git}/></a>
+                              </div>
                             </div>
-                            </div>
+                            </>
                 
                     )
                     })
                 }
-           <Projetos/>
+          </Projetos>   
         </main>
        
 

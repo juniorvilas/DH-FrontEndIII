@@ -3,35 +3,40 @@
     height: calc(100vh - 81px);
     background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1606/Earth_from_space_close_up-Universe_Digital_HD_Wallpaper_1366x768.jpg");
     background-size: cover;
+    background-color: #23272a;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
+    display: flex;    
     justify-content: center;
     align-items: center;
   
-    .banner-jr {
+    .banner-jr {      
       color: white;
       text-shadow: 5px 5px 5px #222;
       text-align: center;
       align-items: center;
+      padding-bottom: 3rem;
       width: 50%;
+      
+      
+      
     
       
       img {
-          max-height: 40vh;
+          max-width: 16rem;
           border: 3px solid white;
           border-radius:10px;
-          
+          justify-content: center;
+          align-items: center;
           
           
           
       }  
       h2 {
-        font-size: 50px;
+        font-size: 2rem;
         
       }
       p {
-        font-size: 20px;
+        font-size: 1rem;
       }
     }
   }

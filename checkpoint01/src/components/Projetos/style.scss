@@ -1,14 +1,30 @@
-.projetos {
-  display: flex ;
-  flex-wrap: wrap ;
-  width: 100%;
-  height: 270px;
-  margin: 0 auto;
-  align-items: center;
+#projetos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  justify-content:center;
+  justify-content:space-around;
   background-color: #23272a;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  width:100%;
+
   
-     
+}
+
+#titulo-projetos {
+  display:flex;
+  justify-content: center;
+  background-color: #23272a;  
+  padding-bottom: 2rem;
+
+  h2 {
+    color: white;
+    padding-top: 4rem;
     
   }
+
+
+}
 
  

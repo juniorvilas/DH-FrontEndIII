@@ -4,12 +4,13 @@ import './style.scss';
 
 const Projetos = ({children}) => {
     return (
-            
-                   
-            <section id="projetos" className="projetos">
-               {children}
-            </section>
-            
+        <>
+        <div id="titulo-projetos"><h2>Projetos</h2></div>        
+        <section id="projetos" className="projetos">    
+                         
+            {children}            
+        </section>
+        </>           
     )
 }
 
