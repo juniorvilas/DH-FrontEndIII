@@ -1,38 +1,56 @@
+
 #banner-bg {
     width: 100%;
     height: calc(100vh - 81px);
-    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1606/Earth_from_space_close_up-Universe_Digital_HD_Wallpaper_1366x768.jpg");
+    background-image: url("https://i.ytimg.com/vi/-tTglFYF1wo/maxresdefault.jpg");
     background-size: cover;
-    background-color: #23272a;
     background-attachment: fixed;
     display: flex;    
     justify-content: center;
     align-items: center;
-  
+    //Outros backgrounds
+    //https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/03/21/tech_0.jpg?itok=rgv78WEq
+    //https://i.ytimg.com/vi/-tTglFYF1wo/maxresdefault.jpg
+    
     .banner-jr {      
       color: white;
       text-shadow: 5px 5px 5px #222;
-      text-align: center;
-      align-items: center;
+      justify-content:center !important;
+      text-align: center;      
       padding-bottom: 3rem;
       width: 50%;
       
-      
+      .banner-texto  { 
+        
+        h2 {
+          text-shadow: 5px 5px 5px #222;
+        }
+
+        p {
+          text-shadow: 5px 5px 5px #222;
+        }
+        
+       
+      }
       
     
       
       img {
+          display: inline-block; 
           max-width: 16rem;
           border: 3px solid white;
-          border-radius:10px;
+          border-radius: 0.5rem;
           justify-content: center;
-          align-items: center;
+          align-items: center ;
+          margin-bottom: 1rem;
           
           
           
       }  
       h2 {
         font-size: 2rem;
+        margin-bottom: 1rem;
+        
         
       }
       p {

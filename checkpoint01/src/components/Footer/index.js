@@ -4,9 +4,9 @@ const Footer = () => {
     return (
                     <>
                     
-                    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <footer id="rodape" className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                         <div className="rodape d-flex justify-content-between py-4 my-4 border-top">
-                            <p className="paragrafo">©  Copyright -  Feito com 💗 por Jr</p>
+                            <p className="paragrafo">© 2021 Copyright -  Feito com 💗 por Jr</p>
                             <ul  className="icones list-unstyled d-flex">
                                 <li className="icon ms-3"><a className="link-dark" href="mailto:log_junior@hotmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-envelope-fill" viewBox="0 0 16 16">
                                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg></a></li>
