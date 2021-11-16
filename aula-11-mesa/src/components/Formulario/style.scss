@@ -1,0 +1,45 @@
+
+
+#div-form{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top:5rem;
+    
+
+
+  #formulario {
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+    button {
+      border-radius: 8px;
+      width: 100%;
+      height: 2.5rem;      
+      background-color: blue;
+      color: white;
+      transition: all 0.3s ease-in-out;
+      border: 2px solid white;
+        &:hover {
+          background-color:white;
+          color: blue;
+          border: 2px solid blue;
+          
+          
+      }
+         
+    }
+    
+    
+    .form-control {
+      margin: 10px 0px;
+  
+  
+    }
+  
+  }
+
+}
